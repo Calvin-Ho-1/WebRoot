@@ -4,9 +4,12 @@
 <head>
     <title>The Life of Freddy Fazbear </title>
     <meta charset="utf-8">
-    <meta name="description" content="This is the text that appears along with the link in web search results.">
-    <meta name="keywords" content="Wrods you anticipate people will use in search engines to find this page.">
-    <meta name="author" content="Who wrote this?">
+    <!--<meta name="description" content="This is the text that appears along with the link in web search results.">-->
+    <meta name="description" content="Who is Freddy Fazbear?">
+    <!--<meta name="keywords" content="Wrods you anticipate people will use in search engines to find this page.">-->
+    <meta name="keywords" content="Freddy Fazbear, Bite of '87, Five Nights at Freddy's, FNAF, Fredbear, Scott Cawthon, Bear with Microphone, Animatronics">
+    <!--<meta name="author" content="Who wrote this?">-->
+    <meta name="author" content="Calvin H.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
@@ -15,7 +18,14 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <!-- link rel="stylesheet" href="../css/style.css" / -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+     <link rel="stylesheet" href="../css/style.css" />
 
     <style>
 
@@ -23,17 +33,22 @@
             background-color: lightblue;
         }
 
-        .navbar a {
-            color: mediumslateblue;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-            font-size: 30px;
-        }
+            .navbar a {
+                color: mediumslateblue;
+                padding: 14px 20px;
+                text-decoration: none;
+                text-align: center;
+                font-size: 30px;
+            }
 
 
         div {
             border: solid;
+        }
+
+        #sectionintro {
+            font-size: 20px;
+            font-weight: bold;
         }
 
         .footer {
@@ -41,8 +56,14 @@
             text-align: center;
             background: #ddd;
         }
-        p{
+
+        p {
             font-size: 15px;
+        }
+
+        .row {
+            font-size: 20px;
+            font-weight: bold;
         }
 
 
@@ -86,7 +107,6 @@
             /* this will change the background to light blue when view is landscape */
             background-color: lightblue;
         }
-
         }
     </style>
 
@@ -112,30 +132,33 @@
 
         <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12">
             <img src="img/FreddyFazbear.jpg" style="float:left; height:250px; margin:0px;">
-            <p><strong>
-                Freddy Fazbear<br /><br/>
-                Fred Bear Pizza @ Freddys Fazbear Pizza .  com
-            </strong>
+            <p>
+                <strong>
+                    Freddy Fazbear<br /><br />
+                    Fred Bear Pizza @ Freddys Fazbear Pizza .  com
+                </strong>
             </p>
         </div><!-- port 1-->
 
         <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12">
             <p>
-                <span class="strong">Bio<br /></span>Freddy Fazbear is the antagonist of the Five Nights at Freddy's series. Freddy is an animatronic bear and children's entertainer housed at Freddy Fazbear's Pizza, alongside Bonnie and Chica.
+                <p id="sectionintro">Bio<br /></p><p>Freddy Fazbear is the antagonist of the Five Nights at Freddy's series. Freddy is an animatronic bear and children's entertainer housed at Freddy Fazbear's Pizza, alongside Bonnie and Chica.
                 He is the mascot of the original Freddy Fazbear's Pizza chain, and takes the role as the lead singer of the band, standing in the center of the stage.
                 Freddy and the other animatronics are haunted by children murdered by a man named William Afton. He and the others are now seeking revenge against their killer by attacking any adults in the pizzeria after-hours in blind rage.
             </p>
         </div> <!-- port 2-->
 
         <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12 hidden-xs hidden-sm">
-            Personality<br />
-                <p>During the day, Freddy loves to have fun and is also shown to be laid-back, easygoing, and happy-go-lucky. However, during the night, Freddy is shown to be taunting constantly, laughing at the night guard and playing a song before triggering a jumpscare. 
-                He is also shown to be sneaky, as he moves in the shadows towards the night guard and even manages to slip through the door quietly without the guard noticing. This reveals a darker and taunting side of his personality.</p>
+            <p id="sectionintro">Personality</p><br />
+            <p>
+                During the day, Freddy loves to have fun and is also shown to be laid-back, easygoing, and happy-go-lucky. However, during the night, Freddy is shown to be taunting constantly, laughing at the night guard and playing a song before triggering a jumpscare.
+                He is also shown to be sneaky, as he moves in the shadows towards the night guard and even manages to slip through the door quietly without the guard noticing. This reveals a darker and taunting side of his personality.
+            </p>
 
         </div> <!--land 3-->
 
         <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12 hidden-xs hidden-sm">
-            Employment<br />
+            <p id="sectionintro">Employment</p><br />
             <p>
                 Lead Vocalist<br />
                 Mascot of Freddy Fazbear's
@@ -143,18 +166,28 @@
         </div><!-- land 3-->
         </!div>
 
+        <div class="row">
+            <div class="col">
+                Mobile Resources
+            </div>
+            <div class="col">
+                <a href="html/webresources.html">Web Resources</a>
+            </div>
+        </div>
 
         <div class="footer">
 
-            <h2>Freddy Fazbear is a very iconic character!</h2> 
+            <h2>Freddy Fazbear is a very iconic character!</h2>
             <h4><a href="https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear">Here is Freddy's Source of Information</a></h4>
             <!--<div class="col-sm-6 col-lg-6 hidden-sm hidden-md">More information about Freddy</div>
-            <p>
-                He was the mascot when the first Freddy Fazbear's Pizza was opened in 1983. In 1987, he and the original animatronics had fallen into severe disrepair, and Freddy was replaced by his newer counterpart for the "improved" Freddy Fazbear's Pizza, Toy Freddy
+        <p>
+            He was the mascot when the first Freddy Fazbear's Pizza was opened in 1983. In 1987, he and the original animatronics had fallen into severe disrepair, and Freddy was replaced by his newer counterpart for the "improved" Freddy Fazbear's Pizza, Toy Freddy
 
-            </p>
-            <div class="col-sm-6 col-lg-6 hidden-sm hidden-md">Books</div>-->
-            
+        </p>
+        <div class="col-sm-6 col-lg-6 hidden-sm hidden-md">Books</div>-->
+
+
+
         </div>
         </!div>
 
